@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy — Kora Studio</title>
+<meta name="description" content="How Kora Studio and SourceTrac handle merchant and buyer data: what we collect, why, how long we keep it, and how to ask for deletion.">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="canonical" href="/privacy">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="/assets/styles.css">
+<script>
+  (function () {
+    try {
+      var saved = localStorage.getItem("kora-theme");
+      if (saved === "dark" || saved === "light") {
+        document.documentElement.setAttribute("data-theme", saved);
+      }
+    } catch (e) {}
+  })();
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="brand" href="/"><span class="brand__mark" aria-hidden="true"></span>Kora Studio</a>
+    <nav class="nav" id="site-nav" data-open="false" aria-label="Main">
+      <a href="/#apps">Apps</a>
+      <a href="/sourcetrac">SourceTrac</a>
+      <a href="/support">Support</a>
+    </nav>
+    <div class="header-tools">
+      <button class="icon-btn theme-toggle" type="button" aria-pressed="false" aria-label="Switch to dark mode">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="4.2"></circle>
+          <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.2 5.2l1.4 1.4M17.4 17.4l1.4 1.4M18.8 5.2l-1.4 1.4M6.6 17.4l-1.4 1.4"></path>
+        </svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z"></path>
+        </svg>
+      </button>
+      <button class="icon-btn menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+          <path d="M4 7h16M4 12h16M4 17h16"></path>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="section wrap">
+    <div class="prose">
+      <h1>Privacy policy</h1>
+      <p class="updated">Last updated: <span class="ph">[DATE]</span></p>
+
+      <p>This policy explains what data Kora Studio collects when you use our apps, why we collect it, and what we do with it. We have kept it short and plain on purpose.</p>
+
+      <h2>Who we are</h2>
+      <p>Kora Studio is <span class="ph">[LEGAL BUSINESS NAME]</span>, at <span class="ph">[CONTACT ADDRESS]</span>. You can contact us at <a href="mailto:sourcetracsupport@gmail.com">sourcetracsupport@gmail.com</a>.</p>
+
+      <h2>What we collect</h2>
+      <ul>
+        <li>The order ID and order number.</li>
+        <li>The buyer's survey answers and when they were given.</li>
+        <li>The order total, currency and payment status from Shopify.</li>
+        <li>The store's own settings.</li>
+      </ul>
+      <p>We do not collect buyers' names, email addresses, phone numbers or postal addresses.</p>
+
+      <h2>Why we collect it</h2>
+      <p>To show the merchant which channels and answers relate to their orders and revenue.</p>
+
+      <h2>Shopify actions</h2>
+      <p>On the Scale plan only, and only when the merchant turns them on, answers can be written back to the merchant's own Shopify store as order tags, customer tags or a customer metafield.</p>
+
+      <h2>How long we keep it</h2>
+      <ul>
+        <li>Survey answers and order records: 24 months.</li>
+        <li>Technical webhook records: 30 days.</li>
+        <li>Access credentials are removed when the app is uninstalled.</li>
+      </ul>
+
+      <h2>Deletion and requests</h2>
+      <p>We act on Shopify's customer data request, customer redaction and shop redaction requests. Merchants can also contact us to ask for data to be deleted.</p>
+
+      <h2>Where data is processed</h2>
+      <p>Hosting by Render and database by Neon. <span class="ph">[ADD OR CONFIRM SUB-PROCESSORS AND REGIONS]</span></p>
+
+      <h2>Selling and advertising</h2>
+      <p>We do not sell data and do not use it for advertising.</p>
+
+      <h2>Changes to this policy</h2>
+      <p>If we change this policy, we will update the date at the top of this page. If a change is significant, we will tell merchants in the app.</p>
+
+      <h2>Contact us</h2>
+      <p>Questions about this policy? Email <a href="mailto:sourcetracsupport@gmail.com">sourcetracsupport@gmail.com</a>.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="site-footer__inner">
+      <nav aria-label="Footer">
+        <a href="/privacy">Privacy</a>
+        <a href="/terms">Terms</a>
+        <a href="/support">Support</a>
+      </nav>
+      <span class="muted">© [YEAR] Kora Studio</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/site.js"></script>
+</body>
+</html>

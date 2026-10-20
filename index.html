@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kora Studio — simple, privacy-friendly apps for Shopify merchants</title>
+<meta name="description" content="Kora Studio is an independent studio building small, focused apps for Shopify merchants. Meet SourceTrac, which shows which channels bring in your sales.">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="/assets/styles.css">
+<script>
+  (function () {
+    try {
+      var saved = localStorage.getItem("kora-theme");
+      if (saved === "dark" || saved === "light") {
+        document.documentElement.setAttribute("data-theme", saved);
+      }
+    } catch (e) {}
+  })();
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="brand" href="/"><span class="brand__mark" aria-hidden="true"></span>Kora Studio</a>
+    <nav class="nav" id="site-nav" data-open="false" aria-label="Main">
+      <a href="/#apps" aria-current="page">Apps</a>
+      <a href="/sourcetrac">SourceTrac</a>
+      <a href="/support">Support</a>
+    </nav>
+    <div class="header-tools">
+      <button class="icon-btn theme-toggle" type="button" aria-pressed="false" aria-label="Switch to dark mode">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="4.2"></circle>
+          <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.2 5.2l1.4 1.4M17.4 17.4l1.4 1.4M18.8 5.2l-1.4 1.4M6.6 17.4l-1.4 1.4"></path>
+        </svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z"></path>
+        </svg>
+      </button>
+      <button class="icon-btn menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+          <path d="M4 7h16M4 12h16M4 17h16"></path>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero wrap">
+    <p class="hero__eyebrow">Independent app studio</p>
+    <h1>Kora Studio</h1>
+    <p class="hero__lead">Simple, privacy-friendly apps for Shopify merchants.</p>
+  </section>
+
+  <section class="section section--soft" id="apps" aria-labelledby="apps-heading">
+    <div class="wrap">
+      <div class="section__head">
+        <h2 id="apps-heading">Our apps</h2>
+        <p>We build one app at a time and keep it focused. SourceTrac is the first one.</p>
+      </div>
+
+      <div class="card-grid">
+        <article class="card app-card">
+          <div class="app-card__top">
+            <img class="app-card__icon" src="/assets/sourcetrac-icon.png" width="56" height="56"
+                 alt="SourceTrac app icon: white letters on an indigo square with a mint arc">
+            <div>
+              <h3>SourceTrac</h3>
+              <p class="app-card__tag">Survey app for Shopify checkout</p>
+            </div>
+          </div>
+          <p>Ask buyers how they found you, then see which channels bring in orders and revenue.</p>
+          <div class="btn-row">
+            <a class="btn btn--primary" href="/sourcetrac">Learn more</a>
+            <a class="btn btn--secondary" href="[APP STORE LISTING URL]">Get it on the Shopify App Store</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="how-heading">
+    <div class="wrap">
+      <div class="section__head">
+        <h2 id="how-heading">How we build</h2>
+        <p>Three rules we keep to, on every app we make.</p>
+      </div>
+
+      <ul class="points">
+        <li>
+          <h3>Small and focused apps</h3>
+          <p>Each app does one job well, so it is quick to set up and easy to understand.</p>
+        </li>
+        <li>
+          <h3>We store only what the app needs</h3>
+          <p>No extra data, and no buyer names, emails, phone numbers or addresses.</p>
+        </li>
+        <li>
+          <h3>Fair prices for small shops</h3>
+          <p>Low monthly plans, billed through Shopify, and you can cancel any time.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="contact-heading">
+    <div class="wrap">
+      <div class="contact-strip">
+        <div>
+          <h2 id="contact-heading">Questions?</h2>
+          <p>Email us and we will get back to you.</p>
+        </div>
+        <div class="btn-row">
+          <a class="btn btn--primary" href="mailto:sourcetracsupport@gmail.com">sourcetracsupport@gmail.com</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="site-footer__inner">
+      <nav aria-label="Footer">
+        <a href="/privacy">Privacy</a>
+        <a href="/terms">Terms</a>
+        <a href="/support">Support</a>
+      </nav>
+      <span class="muted">© [YEAR] Kora Studio</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/site.js"></script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — Kora Studio</title>
+<meta name="description" content="Get help with SourceTrac and other Kora Studio apps. Email us, and check the quick list of things to try before you write.">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="/assets/styles.css">
+<script>
+  (function () {
+    try {
+      var saved = localStorage.getItem("kora-theme");
+      if (saved === "dark" || saved === "light") {
+        document.documentElement.setAttribute("data-theme", saved);
+      }
+    } catch (e) {}
+  })();
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="brand" href="/"><span class="brand__mark" aria-hidden="true"></span>Kora Studio</a>
+    <nav class="nav" id="site-nav" data-open="false" aria-label="Main">
+      <a href="/#apps">Apps</a>
+      <a href="/sourcetrac">SourceTrac</a>
+      <a href="/support" aria-current="page">Support</a>
+    </nav>
+    <div class="header-tools">
+      <button class="icon-btn theme-toggle" type="button" aria-pressed="false" aria-label="Switch to dark mode">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="4.2"></circle>
+          <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.2 5.2l1.4 1.4M17.4 17.4l1.4 1.4M18.8 5.2l-1.4 1.4M6.6 17.4l-1.4 1.4"></path>
+        </svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z"></path>
+        </svg>
+      </button>
+      <button class="icon-btn menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+          <path d="M4 7h16M4 12h16M4 17h16"></path>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="section wrap">
+    <h1>Support</h1>
+    <p class="hero__lead">Tell us what is happening and we will help. Email is the fastest way to reach us.</p>
+
+    <div class="contact-strip" style="margin:1.5rem 0 2.5rem">
+      <div>
+        <h2>Email us</h2>
+        <p><a href="mailto:sourcetracsupport@gmail.com">sourcetracsupport@gmail.com</a></p>
+        <p>We usually reply within one working day.</p>
+      </div>
+      <div class="btn-row">
+        <a class="btn btn--primary" href="mailto:sourcetracsupport@gmail.com">Email us</a>
+      </div>
+    </div>
+
+    <div class="prose">
+      <h2>Before you write</h2>
+      <p>A quick check on these four points solves most SourceTrac questions.</p>
+      <ul>
+        <li>The survey is live.</li>
+        <li>The SourceTrac block is added and saved in Settings → Checkout → Customize → Thank you.</li>
+        <li>Test with a new order, because each order can be answered once.</li>
+        <li>The store is not on Shopify Starter.</li>
+      </ul>
+
+      <p>Still stuck? The answers to common questions are on the <a href="/sourcetrac#faq-heading">SourceTrac FAQ</a>.</p>
+
+      <h2>Other Kora Studio apps</h2>
+      <p>SourceTrac is our only app at the moment. When we add more, their support details will appear here too.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="site-footer__inner">
+      <nav aria-label="Footer">
+        <a href="/privacy">Privacy</a>
+        <a href="/terms">Terms</a>
+        <a href="/support">Support</a>
+      </nav>
+      <span class="muted">© [YEAR] Kora Studio</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/site.js"></script>
+</body>
+</html>
