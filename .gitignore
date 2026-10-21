@@ -1,5 +1,14 @@
+# Editor and OS
 .DS_Store
 Thumbs.db
-node_modules/
-.agent_tmp/
 *.log
+
+# Python
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# Agent scratch
+.agent_tmp/
